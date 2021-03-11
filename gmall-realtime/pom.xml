@@ -182,7 +182,11 @@
             <version>2012_u6</version>
         </dependency>
 
-
+        <dependency>
+            <groupId>com.alibaba.ververica</groupId>
+            <artifactId>flink-connector-mysql-cdc</artifactId>
+            <version>1.1.1</version>
+        </dependency>
     </dependencies>
 
     <build>

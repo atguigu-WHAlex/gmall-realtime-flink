@@ -8,14 +8,11 @@ import com.atguigu.gmallpublisher.service.KeywordStatsService;
 import com.atguigu.gmallpublisher.service.ProductStatsService;
 import com.atguigu.gmallpublisher.service.ProvinceStatsService;
 import com.atguigu.gmallpublisher.service.VisitorStatsService;
-import com.atguigu.gmallpublisher.service.impl.ProductStatsServiceImpl;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.time.DateFormatUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.math.BigDecimal;
